@@ -5,5 +5,188 @@
     }
 
     body {
-     margin: 0;   
+     width: 1024px;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+     border-width: 1px;
+     border-style: solid;
+     border-color: black;
+     background-color: lightgray;
+     display: flex;
+     flex-wrap: wrap;  
+    }
+
+    #primera-seccion {
+     padding: 10px;
+     width: 100%;
+     height: 400px;
+     background-image: url(/assets/imgs/bg-marialo-alasverdes.jpg);
+     background-position: 50% 50%;
+     background-size: cover;
+     background-repeat: no-repeat;
+     display: grid;
+     justify-content: center;
+     align-content: center;
+    }
+
+    #segunda-seccion {
+     padding: 10px 40px;
+     width: 100%;
+     height: 350px;
+     background-color: white;
+     display: grid;
+     gap: 20px;
+     justify-content: center;
+     align-content: center;
+    }
+
+    #tercera-seccion {
+     padding: 10px 40px;
+     width: 100%;
+     height: 500px;
+     background-image: url(/assets/imgs/bg-guideline-4.jpg);
+     background-position: 50% 50%;
+     background-size: cover;
+     background-repeat: no-repeat;
+     display: grid;
+     gap: 20px;
+     justify-content: center;
+     align-content: center;
+    }
+
+    #cuarta-seccion {
+     padding: 10px 40px;
+     width: 100%;
+     height: 500px;
+     background-image: url(/assets/imgs/bg-guideline-6.jpg);
+     background-position: 50% 50%;
+     background-size: cover;
+     background-repeat: no-repeat;
+     display: grid;
+     gap: 20px;
+     justify-content: center;
+     align-content: center;
+    }
+
+    .una-caja {
+     padding: 30px;
+     justify-content: center;
+     align-content: center;
+    }
+
+    .dos-cajas {
+     display: grid;
+     gap: 0px;
+     grid-template-columns: 50% 50%;
+     justify-content: center;
+     align-content: center;
+    }
+
+    .tres-cajas {
+     display: grid;
+     gap: 10px;
+     /*grid-template-rows: 25% 35% 40%;*/
+     grid-template-columns: 25% 35% 45%;
+     justify-content: center;
+     align-content: center;
+    }
+
+    .cinco-cajas{
+     display: grid;
+     gap: 5px;
+     /*grid-template-rows: 33% 33% 33%;*/
+     grid-template-columns: 20% 20% 20% 20% 20%;
+     justify-content: center;
+     align-content: center;
+     
+    }
+
+    .logo {
+     width: 420px;
+     height: auto;
+    }
+
+    .logo2 {
+     width: 220px;
+     height: auto;
+     margin-top: -30px;
+    }
+
+    .pic {
+     width: 100%;
+     height: auto;
+     border: solid;
+     border-color: black;
+     border-width: 1px;
+    }
+
+    .rose {
+     width: 30px;
+     height: auto;
+    }
+
+    h1 {
+     font-family: "Cormorant", serif;
+     font-weight: 200;
+     font-size: 30px;
+     font-style: italic;
+    }
+
+    h2 {
+     font-family: "Cormorant", serif;
+     font-size: 30px;
+     font-weight: 200;
+     font-style: italic;
+     margin: 0;
+    }
+
+    h3 {
+     font-family: "Cormorant", serif;
+     font-size: 18px;
+     font-weight: 200;
+     font-style: italic;
+    }
+
+    p {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 11px;
+     line-height: 18px;
+    }
+
+    .items {
+     list-style: circle;
+     margin-top: 15px;
+    }
+
+    img {
+     width: 100%;
+     height: auto;
+    }
+
+    ul {
+     margin: 0;
+     padding: 0;
+    }
+
+    li {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 11px;
+     line-height: 18px;
+    }
+
+    .v1 {
+     padding: 15px 5px;
+     background-color: #004a33;
+     margin: 0;
+     line-height: 12px;
+    }
+
+    .d1 {
+     padding: 15px 5px;
+     background-image: url(/assets/imgs/ancient-gold.jpg);
+     background-size: 100px;
+     color: white;
+     line-height: 12px;
+     margin: 0;
     }
