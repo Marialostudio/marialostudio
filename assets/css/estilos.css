@@ -12,7 +12,7 @@
      border-width: 1px;
      border-style: solid;
      border-color: black;
-     background-color: lightgray;
+     background-color: #fcfbf4;
      display: flex;
      flex-wrap: wrap;  
     }
@@ -44,7 +44,7 @@
     #tercera-seccion {
      padding: 10px 40px;
      width: 100%;
-     height: 500px;
+     height: 600px;
      background-image: url(/assets/imgs/bg-guideline-4.jpg);
      background-position: 50% 50%;
      background-size: cover;
@@ -58,7 +58,7 @@
     #cuarta-seccion {
      padding: 10px 40px;
      width: 100%;
-     height: 500px;
+     height: 600px;
      background-image: url(/assets/imgs/bg-guideline-6.jpg);
      background-position: 50% 50%;
      background-size: cover;
@@ -69,8 +69,26 @@
      align-content: center;
     }
 
+    #seccion-final {
+     padding: 0px 40px;
+     width: 100%;
+     height: auto;
+     background-color:#004a33;
+     display: grid;
+     justify-content: inherit;
+     align-content: center;
+     
+    }
+
     .una-caja {
      padding: 30px;
+     justify-content: center;
+     align-content: center;
+    }
+
+    .una-caja-footer {
+     display: grid;
+     width: 100%;
      justify-content: center;
      align-content: center;
     }
@@ -88,6 +106,15 @@
      gap: 10px;
      /*grid-template-rows: 25% 35% 40%;*/
      grid-template-columns: 25% 35% 45%;
+     justify-content: center;
+     align-content: center;
+    }
+
+    .tres-cajas-footer {
+     display: grid;
+     gap: 10px;
+     /*grid-template-rows: 25% 35% 40%;*/
+     grid-template-columns: 33% 33% 33%;
      justify-content: center;
      align-content: center;
     }
@@ -189,4 +216,42 @@
      color: white;
      line-height: 12px;
      margin: 0;
+    }
+
+    audio {
+     width: 100%;
+     height: 30px;
+     border: solid;
+     border-radius: 30px;
+     border-color: black;
+     border-width: 1px;
+     margin-top: 10px;
+    }
+
+    .tabla {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 11px;
+     line-height: 18px;
+     text-align: center;
+    }
+
+    .pic-hija {
+     width: 250px;
+     height: auto;
+     text-align: center;
+     border-width: 1px;
+     border-style: solid;
+     border-color: black;
+    }
+
+    .cristalheart {
+     width: 60px;
+     height: auto;
+     margin-top: -20px;
+     padding-bottom: 20px;
+    }
+
+    .social {
+     width: 30px;
+     height: auto;
     }
