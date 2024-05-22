@@ -21,7 +21,7 @@
      padding: 10px;
      width: 100%;
      height: 400px;
-     background-image: url(/assets/imgs/bg-marialo-alasverdes.jpg);
+     background-image: url(./assets/imgs/bg-marialo-alasverdes.jpg);
      background-position: 50% 50%;
      background-size: cover;
      background-repeat: no-repeat;
@@ -45,7 +45,7 @@
      padding: 10px 40px;
      width: 100%;
      height: 600px;
-     background-image: url(/assets/imgs/bg-guideline-4.jpg);
+     background-image: url(./assets/imgs/bg-guideline-4.jpg);
      background-position: 50% 50%;
      background-size: cover;
      background-repeat: no-repeat;
@@ -59,7 +59,7 @@
      padding: 10px 40px;
      width: 100%;
      height: 600px;
-     background-image: url(/assets/imgs/bg-guideline-6.jpg);
+     background-image: url(./assets/imgs/bg-guideline-6.jpg);
      background-position: 50% 50%;
      background-size: cover;
      background-repeat: no-repeat;
@@ -211,7 +211,7 @@
 
     .d1 {
      padding: 15px 5px;
-     background-image: url(/assets/imgs/ancient-gold.jpg);
+     background-image: url(./assets/imgs/ancient-gold.jpg);
      background-size: 100px;
      color: white;
      line-height: 12px;
